@@ -1,0 +1,19 @@
+# Function to add two numbers
+def add_numbers(num1, num2):
+    return num1 + num2
+
+# Main function to demonstrate adding numbers
+def main():
+    # Input numbers from the user
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    # Call the add_numbers function
+    result = add_numbers(num1, num2)
+
+    # Display the result
+    print("Sum:", result)
+
+# Call the main function
+if __name__ == "__main__":
+    main()
